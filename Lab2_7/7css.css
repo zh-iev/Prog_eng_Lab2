@@ -1,0 +1,22 @@
+div {background-color: #fa354a;
+    width: 450px;
+    height: 500px;
+    border: 10px solid #484848;
+    text-align: center;
+}
+.x {color: white; font-size: 30px; font-weight: 900; font-family: "Arial Black", sans-serif}
+.get {color: white;
+    font-family: "Bahnschrift SemiBold SemiConden", sans-serif; font-size: 45px; font-weight: bold}
+.good {color: white; font-family: Arial, sans-serif; font-size: 12px;}
+input {background: #c92a3b; color: #dddddd;
+    width: 400px; height: 40px;}
+input::placeholder{color: #dddddd}
+
+select {background: #c92a3b; color: white;
+    width: 410px; height: 40px;}
+textarea {background: #c92a3b; color: #dddddd;
+    width: 400px; height: 100px;
+    resize: none}
+textarea::placeholder{color: #dddddd}
+button {height: 60px; color: #fa354a; background-color: white; width: 400px; margin-top: -12px}
+

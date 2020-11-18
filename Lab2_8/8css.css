@@ -1,0 +1,14 @@
+table { border: 2px solid white}
+td:first-child{width: 130px}
+td, tr {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    height: 45px;
+    background-color: #d2e6f3;
+    width: 100px;
+    text-align: center;
+}
+thead {color: white;}
+.wh {color:white; text-align: left; background: #a1cce7
+}
+.blue {background: #a2cde8}

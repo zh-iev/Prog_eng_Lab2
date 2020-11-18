@@ -1,0 +1,28 @@
+.sq1 {border: 1px solid #fb8686;
+position:absolute;
+margin: 10px;
+height: 50px;
+width: 50px;
+    background: #fb8686;
+    z-index: 1;
+}
+
+.sq2 {border: 1px solid #7d88ea;
+    position:absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 50px;
+    width: 50px;
+    background: #7d88ea;
+    z-index: 3;
+}
+
+.sq3 {border: 1px solid #4ded98;
+    position:absolute;
+    margin-top: 70px;
+    margin-left: 70px;
+    height: 50px;
+    width: 50px;
+    background: #4ded98;
+    z-index: 2;
+}

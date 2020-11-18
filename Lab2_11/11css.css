@@ -1,0 +1,22 @@
+.sq1 {border: 1px solid red;
+    position: absolute;
+margin: 10px;
+height: 50px;
+width: 50px;
+}
+
+.sq2 {border: 1px solid blue;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 80px;
+    height: 50px;
+    width: 50px;
+}
+
+.sq3 {border: 1px solid green;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 150px;
+    height: 50px;
+    width: 50px;
+}

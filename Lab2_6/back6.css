@@ -1,0 +1,4 @@
+button {background: gray;
+color: white;}
+textarea[disabled] {font-size: 30px}
+input#ok:checked + label {background: #95c69e}

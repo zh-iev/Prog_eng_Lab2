@@ -1,0 +1,63 @@
+* {
+    padding:0;
+    margin:0;}
+
+nav {
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #cdcdcd;
+    box-shadow: 0 2px 5px #e7e7e7;
+    color: #2e2e30;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 600;
+    display: flex;
+}
+.menu {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+}
+li {
+    position: relative;
+    margin-left: 40px;
+}
+ul {
+    align-items: center;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #434242;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+.about_pod {
+    visibility: hidden;
+    position: absolute;
+    box-shadow: 0 2px 5px #e7e7e7;
+}
+li:hover .about_pod {
+    margin-top: 20px;
+    visibility: visible;
+}
+.menu > li:hover>ul.about_pod>li>div {
+    background: #ffffff;
+    width: 170px;
+    height: 40px;
+}
+a {
+    display: block;
+    align-items: center;
+    justify-items: center;
+}
+
+.menu > li:hover {
+    width: 100px;
+    height: 60px;
+    background: #cbcbcb;
+    position: relative;
+    text-align: center;
+}
+.podpunkt {margin-top: 27px}
+li:hover>a {margin-top: 20px}

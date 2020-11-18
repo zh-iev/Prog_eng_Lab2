@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 10px;
+}
+div {
+    padding: 25px;
+    border-bottom: 1px solid #dddcdc;
+}
+input {
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+}
+input:focus {
+    width: 220px;
+    height: 30px;
+}
+#Name {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -12px}
+#Name:valid, #Website:valid, #Email:valid {
+    border: 1px solid lightgreen;
+    box-shadow: 0 0 10px lightgreen;
+    background: #fff url(https://icon-icons.com/icons2/894/PNG/32/Tick_Mark_Dark_icon-icons.com_69147.png) no-repeat 95% center;
+}
+#Name:focus:invalid, #Website:focus:invalid, #Email:focus:invalid {
+    border: 1px solid red;
+    box-shadow: 0 0 10px red;
+    background: #fff url(https://icon-icons.com/icons2/894/PNG/32/Close_Icon_Dark_icon-icons.com_69143.png) no-repeat 95% center;
+
+}
+#Email {
+    position: absolute;
+    margin-left: 115px;
+    margin-top: -12px}
+#Website {
+    position: absolute;
+    margin-left: 109px;
+    margin-top: -12px}
+
+form {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+#Message {
+    display: flex;
+}
+textarea {
+    padding: 10px;
+    margin-left: 105px;
+    min-height: 100px;
+    min-width: 400px;
+}
+textarea:focus {
+    min-height: 120px;
+    min-width: 420px;
+}
+#Submit{
+    background-color: #57a957;
+    border-color: #57a957;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px}
+#Submit:hover{
+    background-color: #62c462;}
+#Submit:active{
+    background: #57a957;}
